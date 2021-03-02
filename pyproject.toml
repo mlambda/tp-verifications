@@ -1,0 +1,19 @@
+[tool.poetry]
+authors = ["m09 <142691+m09@users.noreply.github.com>"]
+description = ""
+name = "tp-verifications"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23"
+flake8 = "^6"
+flake8-docstrings = "^1"
+mypy = "^1"
+pylint = "^3"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
